@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+.main {
+    margin: 1vh 0vw;
+    padding: 2vh 2vw;
+    background-color: #333;
+    color: white;
+}
+
+.row {
+    margin: 2vh 1vw;
+    padding: 2vh 1vw;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 49%;
+}
+
+.column-2 {
+    padding: 2vh 1vw;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proj_img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(254, 254, 254, 0.19);
+}
+
+/* font formeting  */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+li {
+    font-size: 1.5vw;
+}
+
+/* ul {
+    list-style-type: none;
+    list-style: none;
+} */
+
+.proj_icon {
+    height: 4.5vh;
+}
+
+.logo_set {
+    display: none;
+}
+
+.text {
+    color: greenyellow;
+}
+
+.slideshow {
+    margin: 1vh 0vw;
+}
+
+@media screen and (max-width: 840px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        margin: 1vh 0vw;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 3vh;
+    }
+
+    li {
+        font-size: 2vh;
+    }
+
+    .logo_set {
+        display: flex;
+    }
+}

@@ -1,0 +1,38 @@
+/* footer  */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: whitesmoke;
+  padding: 10px;
+  font-family: 'Fira Code', monospace;
+}
+
+.footer-col-1 {
+  padding: 10px 0px;
+  float: left;
+}
+
+.footer-col-2 {
+  float: right;
+}
+
+.footer_logo {
+  margin-top: 5px;
+  height: 30px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 820px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col-1,
+  .footer-col-2 {
+    font-size: 2vh;
+    margin: 1vh 0vw;
+    width: 100%;
+  }
+}

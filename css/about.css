@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.aboutme {
+  word-wrap: break-word;
+}
+
+.txt-rotate {
+  color: #00fffb;
+}
+
+.skills {
+  height: 2px;
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+/* Programming languages */
+.bash_script {
+  width: 95%;
+  background-color: #04aa6d;
+}
+
+.cpp {
+  width: 80%;
+  background-color: #f606b2;
+}
+
+.python {
+  width: 60%;
+  background-color: #002fff;
+}
+
+/* Web development skills */
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+}
+
+.css {
+  width: 80%;
+  background-color: #f606b2;
+}
+
+.bootstrap {
+  width: 60%;
+  background-color: #002fff;
+}
+
+.js {
+  width: 50%;
+  background-color: #f44336;
+}
+
+.php {
+  width: 70%;
+  background-color: #ffea01;
+}
+
+.mysql {
+  width: 65%;
+  background-color: #00fffb;
+}
+
+/* main body */
+.main_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #333;
+  color: aliceblue;
+  padding: 20px 25px;
+  margin: 1vh 0vw;
+}
+
+.row {
+  margin: 2vh 0px;
+  width: 100%;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px 0px;
+}
+
+li {
+  margin: 5px 0px;
+}
+
+.interest {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inte_name {
+  width: 20%;
+  font-size: larger;
+  border: solid whitesmoke 2px;
+  padding: 4vh 2vw;
+  border-radius: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 840px) {
+
+  /* main body  */
+  .main_body {
+    flex-direction: column;
+    font-size: 2vh;
+  }
+
+  .interest {
+    flex-direction: column;
+  }
+
+  .inte_name {
+    width: 100%;
+    margin: 1vh 0vw;
+  }
+
+}

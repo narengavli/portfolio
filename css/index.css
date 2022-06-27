@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+.main_body {
+  background-color: #333;
+  margin: 1vh 0vw;
+  color: whitesmoke;
+}
+
+.wish {
+  text-align: center;
+  padding: 1vh;
+  font-family: 'Fira Code', monospace;
+}
+
+/* main box  */
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 15vh 5vw;
+}
+
+.main-col-1,
+.main-col-2 {
+  width: 50%;
+}
+
+.main-col-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#home-img-1 {
+  width: 100%;
+}
+
+.dev_name {
+  font-size: 6vh;
+  color: greenyellow;
+  font-family: 'Roboto Slab', serif;
+}
+
+.dev_type {
+  font-family: 'Fira Code', monospace;
+}
+
+.coler {
+  color: rgb(171, 99, 238);
+}
+
+.txt-rotate {
+  color: yellow;
+}
+
+/* Media Queries */
+@media screen and (max-width: 820px) {
+
+  /* main body  */
+  .main {
+    flex-direction: column;
+  }
+
+  .main-col-1,
+  .main-col-2 {
+    margin: 2vh 0vw;
+    width: 100%;
+  }
+
+  .dev_name {
+    text-align: center;
+    font-size: 3.5vh;
+  }
+
+  .dev_type {
+    text-align: center;
+    font-size: 2.5vh;
+  }
+}

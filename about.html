@@ -1,0 +1,193 @@
+<html>
+
+<head>
+    <title>NAREN | ABOUT</title>
+    <link rel="icon" type="image/x-icon" href="./img/site_title_icon/about_icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css file -->
+    <link rel="stylesheet" href="./css/slideShow.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- link google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+
+    <!-- link font awesome -->
+    <script src="https://kit.fontawesome.com/91b7a0e05b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">HOME</a>
+        <a href="about.html" class="active">ABOUT</a>
+        <a href="project.html">WORK</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- main body  -->
+    <div class="main_body">
+        <!-- about me -->
+        <div class="row">
+            <h1><i class="fa-solid fa-user"></i> About me</h1>
+            <div>
+                <h3 class="dev_type">Hi, I am narendra gavli and I like
+                    <span class="txt-rotate" data-period="2000"
+                        data-rotate='[ "developing.", "conding.", "designing.","playing chess."]'></span>
+                </h3>
+            </div>
+            <p class="aboutme">
+                I am currently studying at Sardar Vallabhbhai National Institute of Technology Surat in
+                electronics and
+                communication engineering. I am mostly focused on
+                development. I am learning coding not for competitive programming, but to make my daily tasks easier. I
+                believe in "<i>Kar dikhao kuch aisa ki, duniya karna chahe aapke jaisa !</i>".
+            </p>
+            <ul>
+                <li>Email ID: narendragavli.avm@gmail.com</li>
+                <li>Linkedin ID: narendragavli-svnit</li>
+                <li>GitHub ID: narengavli-svnit-02</li>
+            </ul>
+        </div>
+
+        <!-- skills -->
+        <div class="row">
+            <h1><i class="fa-solid fa-code"></i> Skills</h1>
+            <h3>Programming languages</h3>
+            <p>Bash Scripting</p>
+            <div class="container">
+                <div class="skills bash_script"></div>
+            </div>
+
+            <p>C++</p>
+            <div class="container">
+                <div class="skills cpp"></div>
+            </div>
+
+            <p>Python</p>
+            <div class="container">
+                <div class="skills python"></div>
+            </div>
+
+            <h3>Web development skills</h3>
+            <p>HTML</p>
+            <div class="container">
+                <div class="skills html"></div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills css"></div>
+            </div>
+
+            <p>Bootstrap</p>
+            <div class="container">
+                <div class="skills bootstrap"></div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js"></div>
+            </div>
+
+            <p>PHP</p>
+            <div class="container">
+                <div class="skills php"></div>
+            </div>
+
+            <p>MY SQL</p>
+            <div class="container">
+                <div class="skills mysql"></div>
+            </div>
+        </div>
+
+        <!-- Certificate -->
+        <div class="row">
+            <h1><i class="fa-solid fa-file-lines"></i> Certificate</h1>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 | 2</div>
+                    <img src="./img/certificate/webdev.jpg" style="width:100%">
+                    <div class="text"><b>Web Development Certificate</b></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 | 2</div>
+                    <img src="./img/certificate/bash.jpg" style="width:100%">
+                    <div class="text"><b>Bash Script Certificate</b></div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+
+        <!-- Interests -->
+        <div class="row">
+            <h1><i class="fa-brands fa-gratipay"></i> Interests</h1>
+            <div class="interest">
+                <div class="inte_name">
+                    <i class="fa-solid fa-chess"></i> Games
+                </div>
+                <div class="inte_name">
+                    <i class="fa-solid fa-book"></i> Reading
+                </div>
+                <div class="inte_name">
+                    <i class="fa-solid fa-code"></i> Coding
+                </div>
+                <div class="inte_name">
+                    <i class="fa-solid fa-film"></i> Watching Movies
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-col-1">
+            <span>Copyright 2022 | All Rights Reserved</span>
+        </div>
+        <div class="footer-col-2">
+            <a href="https://github.com/narengavli-svnit-02">
+                <img src="./img/footer_icon/github.png" class="footer_logo">
+            </a>
+            <a href="https://www.linkedin.com/in/narendragavli-svnit/">
+                <img src="./img/footer_icon/linkedin.png" class="footer_logo">
+            </a>
+            <a href="https://www.instagram.com/naren_gavli/">
+                <img src="./img/footer_icon/instagram.png" class="footer_logo">
+            </a>
+            <a href="">
+                <img src="./img/footer_icon/gmail.png" class="footer_logo">
+            </a>
+            <a href="https://twitter.com/naren_gavli">
+                <img src="./img/footer_icon/twitter.png" class="footer_logo">
+            </a>
+        </div>
+    </div>
+
+    <!-- link js file -->
+    <script src="./js/index.js"></script>
+    <script src="./js/slideShow.js"></script>
+    <script src="./js/devTypeFun.js"></script>
+</body>
+
+</html>

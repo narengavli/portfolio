@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+}
+
+.main_body {
+  background-color: #333;
+  color: aliceblue;
+  margin: 1vh 0vw;
+  padding: 1vh 0vw;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
