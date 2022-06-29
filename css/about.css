@@ -10,6 +10,11 @@ h1 {
 .aboutme {
   word-wrap: break-word;
   font-size: large;
+  text-align: justify;
+}
+
+.quote {
+  text-align: center;
 }
 
 .txt-rotate {
@@ -132,6 +137,10 @@ li {
   .inte_name {
     width: 100%;
     margin: 1vh 0vw;
+  }
+
+  .dev_type {
+    font-size: larger;
   }
 
 }
