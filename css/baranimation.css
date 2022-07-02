@@ -55,15 +55,15 @@
 }
 
 .css {
-    background-color: rgb(255, 81, 0);
-    box-shadow: 0 0 10px rgb(248, 157, 53);
+    background-color: rgb(25, 0, 255);
+    box-shadow: 0 0 10px rgb(89, 53, 248);
     width: 75%;
 }
 
 .bootstrap {
     background-color: rgb(255, 81, 0);
     box-shadow: 0 0 10px rgb(248, 157, 53);
-    width: 75%;
+    width: 85%;
 }
 
 .javascript {
