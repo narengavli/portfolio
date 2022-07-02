@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.progress-bar-container h2 {
+    color: rgb(238, 238, 238);
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 5px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.percentage {
+    display: block;
+    height: 100%;
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+
+.shell_script {
+    background-color: rgb(0, 255, 34);
+    box-shadow: 0 0 10px rgb(51, 248, 51);
+    width: 90%;
+}
+
+.c {
+    background-color: rgb(255, 0, 242);
+    box-shadow: 0 0 10px rgb(253, 61, 244);
+    width: 80%;
+}
+
+
+.python {
+    background-color: rgb(217, 255, 0);
+    box-shadow: 0 0 10px rgb(252, 255, 76);
+    width: 70%;
+}
+
+.html {
+    background-color: rgb(255, 81, 0);
+    box-shadow: 0 0 10px rgb(248, 157, 53);
+    width: 85%;
+}
+
+.css {
+    background-color: rgb(255, 81, 0);
+    box-shadow: 0 0 10px rgb(248, 157, 53);
+    width: 75%;
+}
+
+.bootstrap {
+    background-color: rgb(255, 81, 0);
+    box-shadow: 0 0 10px rgb(248, 157, 53);
+    width: 75%;
+}
+
+.javascript {
+    background-color: rgb(217, 255, 0);
+    box-shadow: 0 0 10px rgb(252, 255, 76);
+    width: 65%;
+}
+
+.dbms {
+    background-color: rgb(255, 0, 242);
+    box-shadow: 0 0 10px rgb(253, 61, 244);
+    width: 80%;
+}
+
+.php {
+    background-color: rgb(0, 255, 34);
+    box-shadow: 0 0 10px rgb(51, 248, 51);
+    width: 70%;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {}
