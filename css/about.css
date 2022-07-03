@@ -72,12 +72,12 @@ h2 {
     font-size: 2vh;
   }
 
-  .aboutme {
-    font-size: medium;
-  }
-
   .interest {
     flex-direction: column;
+  }
+
+  .aboutme {
+    font-size: large;
   }
 
   .inte_name {
@@ -87,7 +87,17 @@ h2 {
   }
 
   .dev_type {
-    font-size: large;
+    font-size: x-large;
   }
 
+}
+
+@media screen and (max-width: 600px) {
+  .aboutme {
+    font-size: medium;
+  }
+
+  .dev_type {
+    font-size: large;
+  }
 }
