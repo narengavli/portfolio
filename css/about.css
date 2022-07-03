@@ -72,6 +72,10 @@ h2 {
     font-size: 2vh;
   }
 
+  .aboutme {
+    font-size: medium;
+  }
+
   .interest {
     flex-direction: column;
   }
