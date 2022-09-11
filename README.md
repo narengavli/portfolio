@@ -8,7 +8,7 @@ Portfolio website is show my skills and projects.
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://img.shields.io/badge/JAVASCRIPT-green?style=for-the-badge&logo=JAVASCRIPT&logoColor=white"/> </a>
 
 <h4>Live Web Site Link :</h4>
-<a href="https://narengavli-svnit-02.github.io/portfolio" target="_blank"><img src="https://img.shields.io/badge/PORTFOLIO%20WEBSITE-LIVE%20WEBSITE-blue"/></a>
+<a href="https://narengavli.github.io/portfolio" target="_blank"><img src="https://img.shields.io/badge/PORTFOLIO%20WEBSITE-LIVE%20WEBSITE-blue"/></a>
 
 <h4>Photo of Web Site Home Page :</h4>
 <center><img src="https://github.com/narengavli-svnit-02/portfolio/blob/main/img/projects/portfoli_website.png"></center>
