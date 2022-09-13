@@ -11,7 +11,7 @@ Portfolio website is show my skills and projects.
 <a href="https://narengavli.github.io/portfolio" target="_blank"><img src="https://img.shields.io/badge/PORTFOLIO%20WEBSITE-LIVE%20WEBSITE-blue"/></a>
 
 <h4>Photo of Web Site Home Page :</h4>
-<center><img src="https://github.com/narengavli-svnit-02/portfolio/blob/main/img/projects/portfoli_website.png"></center>
+<center><img src="https://github.com/narengavli/portfolio/blob/main/img/projects/portfoli_website.png"></center>
 
 <!-- Thank You -->
 <h1 align="center">😍 THANK YOU FOR VISITING 💖</h1>
@@ -19,7 +19,7 @@ Portfolio website is show my skills and projects.
 
 <!-- Social Media -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/narendragavli-svnit/" target="blank"><img align="center" src="https://img.shields.io/badge/NARENDRA GAVLI-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/narengavli/" target="blank"><img align="center" src="https://img.shields.io/badge/NARENDRA GAVLI-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://www.instagram.com/naren_gavli/" target="blank"><img align="center" src="https://img.shields.io/badge/NAREN GAVLI-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" /></a>
   <a href="#" target="blank"><img align="center" src="https://img.shields.io/badge/Telegram-%231877F2.svg?style=for-the-badge&logo=Telegram&logoColor=white" /></a>
   <a href="https://twitter.com/naren_gavli" target="blank"><img align="center" src="https://img.shields.io/badge/NAREN GAVLI-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" /></a>
